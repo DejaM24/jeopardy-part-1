@@ -4,22 +4,72 @@ header {
     color:blue;
 }
 
-#play {
+button {
     border-style: solid;
     background-color: rgb(211, 9, 251);
     text-align: center;
     font-family: impact;
+    position: fixed;
+    left:50%;
+    top: 90%;
+    
     
 }
 
-#play:hover {
+button:hover {
     background-color: blue;
 }
 
 #img1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer {
+    display:flex;
+    align-items: center;
     
+}
+
+h2 {
+    text-align: center;
+    font-family: impact;
+}
+
+.main-row1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.one {
+    grid-column: 1/6;
+    grid-row: 1/6;
+}
+
+.two {
+    grid-column: 1/6;
+    grid-row: 2/6;
+}
+
+.three {
+    grid-column: 1/6;
+    grid-row: 3/6;
+}
+
+.four {
+    grid-column: 1/6;
+    grid-row: 4/6;
+}
+
+.five {
+    grid-column: 1/6;
+    grid-row: 5/6;
+}
+
+.six {
+    grid-column: 1/6;
+    grid-row: 6/6;
 }
