@@ -57,6 +57,38 @@ header {
 
 }
 
+.finalcat {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 10px solid black;
+}
+
+.finalq {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    border: 10px solid black;
+
+}
+
+.point {
+    position: absolute;
+    bottom: 60%;
+    left: 50%;
+}
+
+.finala {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+}
+
+.bet {
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+}
 #img1 {
     position: fixed;
     left: 50%;
